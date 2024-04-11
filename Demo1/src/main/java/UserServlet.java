@@ -20,14 +20,11 @@ public class UserServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
-    	System.out.println("Executed dopost");
         doGet(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
-    
     throws ServletException, IOException {
-    	System.out.println("Executed doget");
         String action = request.getServletPath();
 
         try {
