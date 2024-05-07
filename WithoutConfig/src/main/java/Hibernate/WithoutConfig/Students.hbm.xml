@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="Hibernate.WithoutConfig.Students" table="students">
+        <id name="id" type="int">
+            <column name="id"/>
+            <generator class="increment"/>
+        </id>
+
+        <property name="name">
+            <column name="name"/>
+        </property>
+
+        <property name="age">
+            <column name="age"/>
+        </property>
+
+        <property name="marks">
+            <column name="marks"/>
+        </property>
+
+        <property name="gender">
+            <column name="gender"/>
+        </property>
+    </class>
+</hibernate-mapping>
