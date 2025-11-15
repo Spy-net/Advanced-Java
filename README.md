@@ -1,7 +1,4 @@
 # Advanced-Java  
-A personal collection of advanced Java implementations, concepts, and experiments.
-
-## 🚀 Introduction  
 This repository includes advanced topics in advanced Java. Explore real-world programming patterns, deepen my understanding of enterprise-level concepts, and practice building complete systems using modern Java tools and techniques.  
 Instead of focusing on basics, this collection highlights practical applications—database interaction.
 
